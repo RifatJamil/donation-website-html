@@ -100,6 +100,7 @@ h3 {
 /* bottom or donation plan banner starts here check it out */
 .donation-plan-banner{
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .dontaion-plan-container {
@@ -142,9 +143,7 @@ h3 {
 }
 
 /* video showcase starts here. this is for bonus marks */
-.showcase_container {
-    margin-top: 7%;
-}
+
 .showcase-parent {
     display: flex;
     width: 80%;
