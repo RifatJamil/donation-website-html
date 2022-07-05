@@ -1,0 +1,47 @@
+
+/*-------------- global css -----------------------------------
+------------------------------------- */
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* ----------Banner styles ---------------------
+---------------------------------------- */
+
+.banner {
+    background-image: url(images/banner.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    box-shadow: inset 0 0 5rem 1rem #000;
+}
+
+.banner-descriptions{
+    width: 66.66%;
+    margin-right: 16.66%;
+    margin-left: 16.66%;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+
+.banner-descriptions h1{
+    font-size: 3.12rem;
+}
+
+.banner-descriptions span{
+    color:rgb(4, 199, 20)
+}
+
+/* banner button -------*/
+
+.banner-btn{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.312rem;
+}
