@@ -6,6 +6,18 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+}
+
+.shared_span {
+    color: orangered;
+}
+
 /* ----------Banner styles ---------------------
 ---------------------------------------- */
 
@@ -125,6 +137,23 @@ body {
     background-color: rgba(255, 255, 60, 0.39);
 }
 
+/* video showcase starts here. this is for bonus marks */
+
+.showcase-parent {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content:space-evenly;
+    text-align: left;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.showcase-child{
+    width: 30%;
+}
+
 
 /* subscription part starts here */
 .form-container {
@@ -146,7 +175,7 @@ body {
 
 .subscribe__title {
 	font-weight: bold;
-	font-size: 1.625rem;
+	font-size: 2.5rem;
 	margin-bottom: 1.125rem;
 }
 
@@ -193,5 +222,13 @@ body {
 
 
 .notice {
-	width: 345px;
+	width: 21.56rem;
+}
+
+/* footer parts */
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    text-align: center;
 }
