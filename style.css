@@ -1,7 +1,7 @@
 
 /*-------------- global css -----------------------------------
 ------------------------------------- */
-body{
+body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
@@ -18,7 +18,7 @@ body{
     box-shadow: inset 0 0 5rem 1rem #000;
 }
 
-.banner-descriptions{
+.banner-descriptions {
     width: 66.66%;
     margin-right: 16.66%;
     margin-left: 16.66%;
@@ -29,20 +29,67 @@ body{
 
 }
 
-.banner-descriptions h1{
+.banner-descriptions h1 {
     font-size: 4.37rem;
 }
 
-.banner-descriptions span{
+.banner-descriptions span {
     color:rgb(4, 199, 20)
 }
 
 /* banner button -------*/
 
-.banner-btn{
+.banner-btn {
     background-color: orangered;
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.312rem;
 }
+
+/*------------ end of top banner---------- */
+
+
+
+/* from here mid banner starts  */
+
+.banner-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.donation-container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.donation-amount {
+    padding:1rem 2.5rem;
+    border-radius: 0.312rem;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(80, 80, 80);
+}
+
+#selected-amount {
+    background-color: rgba(255, 68, 0, 0.253);
+    border: 1px solid rgba(255, 68, 0, 0.651);
+}
+
+
+/* bottom or donation plan banner starts here check it out */
+.donation-plan-banner{
+    margin-top: 5%;
+}
+
+.dontaion-plan-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
