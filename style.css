@@ -189,22 +189,22 @@ h3 {
 }
 
 .subscribe__copy {
-	max-width: 450px;
+	max-width: 28.125rem;
 	text-align: center;
-	margin-bottom: 53px;
+	margin-bottom: 3.3125rem;
 	line-height: 1.5;
 }
 
 .form {
-	margin-bottom: 25px;
+	margin-bottom: 1.562rem;
 }
 
 .form__email {
-	padding: 20px 25px;
-	border-radius: 5px;
+	padding: 1.25rem 1.562rem;
+	border-radius: 0.0195rem;
  	border: 1px solid #a8a8a8;
-	width: 431px;
-	font-size: 18px;
+	width: 26.937rem;
+	font-size: 1.125rem;
 	color: #0F121F;
 }
 
@@ -214,12 +214,12 @@ h3 {
 
 .form__button {
 	background: orangered;
-	padding: 10px;
+	padding: 0.625rem;
 	border: none;
-	width: 244px;
-	height: 65px;
-	border-radius: 5px;
-	font-size: 18px;
+	width: 15.25rem;
+	height: 4.0625rem;
+	border-radius: 0.0195rem;
+	font-size: 1.125rem;
 	color: white;
 	box-shadow: 0 4px 20px rgba(180, 180, 180, 0.7);
 }
