@@ -93,3 +93,105 @@ body {
     text-align: center;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.card img {
+    width: 5rem;
+}
+
+.card {
+    width: 25%;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+/* card id */
+#card-1 {
+    background-color: rgba(28, 231, 231, 0.308);
+}
+
+#card-2 {
+    background-color: rgba(255, 0, 0, 0.219);
+}
+
+#card-3 {
+    background-color: rgba(255, 255, 60, 0.39);
+}
+
+
+/* subscription part starts here */
+.form-container {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background-color: white;
+	width: 59.0625rem;
+	height: 29.625rem;
+	
+}
+
+
+.subscribe__title {
+	font-weight: bold;
+	font-size: 1.625rem;
+	margin-bottom: 1.125rem;
+}
+
+#subscription-title {
+    color: orangered;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid #a8a8a8;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.form__email:focus {
+	outline: 1px solid orangered;
+}
+
+.form__button {
+	background: orangered;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0 4px 20px rgba(180, 180, 180, 0.7);
+}
+
+
+
+.notice {
+	width: 345px;
+}
