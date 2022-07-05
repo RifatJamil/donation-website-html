@@ -92,6 +92,10 @@ h3 {
     border: 1px solid rgba(255, 68, 0, 0.651);
 }
 
+#taka-amount {
+    border: none;
+}
+
 
 /* bottom or donation plan banner starts here check it out */
 .donation-plan-banner{
@@ -138,7 +142,9 @@ h3 {
 }
 
 /* video showcase starts here. this is for bonus marks */
-
+.showcase_container {
+    margin-top: 7%;
+}
 .showcase-parent {
     display: flex;
     width: 80%;
